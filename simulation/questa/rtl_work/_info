@@ -1,0 +1,169 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/AS4/LAB2/QUARTUS_PRJ/simulation/questa
+T_opt
+!s110 1732549486
+V9iJ0:R8AL?>e;_mWD9LNo2
+04 11 4 work tb_vga_ctrl fast 0
+=1-e0d045609bd6-67449b6d-34e-320c
+R0
+!s12b OEM100
+!s124 OEM10U5 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vclk_gen
+2D:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen/clk_gen.v
+Z3 !s110 1732549485
+!i10b 1
+!s100 ifhShLajK5[b`XbbEH2UB3
+II4^Y:@m1;WOflX^nlZLa72
+R1
+w1732009700
+8D:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen/clk_gen.v
+FD:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen/clk_gen.v
+!i122 6
+L0 40 124
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1732549484.000000
+!s107 D:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen/clk_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen|D:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen/clk_gen.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/ip_core/clk_gen -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclk_gen_altpll
+2D:/FPGA/AS4/LAB2/QUARTUS_PRJ/db/clk_gen_altpll.v
+Z8 !s110 1732549484
+!i10b 1
+!s100 iK=4CA=J8^HIzAa5Kc?hj0
+I9hQYo<o38Hd9]LPPhU8P>0
+R1
+w1732038291
+8D:/FPGA/AS4/LAB2/QUARTUS_PRJ/db/clk_gen_altpll.v
+FD:/FPGA/AS4/LAB2/QUARTUS_PRJ/db/clk_gen_altpll.v
+!i122 4
+L0 31 79
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/AS4/LAB2/QUARTUS_PRJ/db/clk_gen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/db|D:/FPGA/AS4/LAB2/QUARTUS_PRJ/db/clk_gen_altpll.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_vga_ctrl
+2D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM/tb_vga_ctrl.v
+R8
+!i10b 1
+!s100 <Hha=<9:N0fJ_aB9zRC0^0
+IOXmZUijUVS`_D=9Zf=k^J1
+R1
+w1732549204
+8D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM/tb_vga_ctrl.v
+FD:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM/tb_vga_ctrl.v
+!i122 5
+L0 2 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM/tb_vga_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM|D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM/tb_vga_ctrl.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../SIM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvga_char
+2D:/FPGA/AS4/LAB2/RTL/vga_char.v
+R8
+!i10b 1
+!s100 ?;QA0?WV23Y8A4bb_mEb42
+I8;<8KVHJ41iI6na0BFOm[2
+R1
+w1732101711
+8D:/FPGA/AS4/LAB2/RTL/vga_char.v
+FD:/FPGA/AS4/LAB2/RTL/vga_char.v
+!i122 3
+L0 1 66
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/AS4/LAB2/RTL/vga_char.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/AS4/LAB2/RTL|D:/FPGA/AS4/LAB2/RTL/vga_char.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+D:/FPGA/AS4/LAB2/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvga_ctrl
+2D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_ctrl.v
+R3
+!i10b 1
+!s100 E=U:[4j^76S0Oa_zG6nCi3
+ICUX==l6WWF>Mc4bGii_CX3
+R1
+w1732039912
+8D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_ctrl.v
+FD:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_ctrl.v
+!i122 7
+L0 1 95
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1732549485.000000
+!s107 D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL|D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_ctrl.v|
+!i113 0
+R7
+Z10 !s92 -vlog01compat -work work +incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvga_pic
+2D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_pic.v
+R3
+!i10b 1
+!s100 bd4Y5bYQ?c28BTCP5CT0`2
+IhC@@Iblcgm><9UC`>4llM2
+R1
+w1732035842
+8D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_pic.v
+FD:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_pic.v
+!i122 8
+L0 1 125
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_pic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL|D:/FPGA/AS4/LAB2/QUARTUS_PRJ/../RTL/vga_pic.v|
+!i113 0
+R7
+R10
+R2
